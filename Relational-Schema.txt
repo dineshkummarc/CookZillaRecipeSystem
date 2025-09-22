@@ -1,5 +1,5 @@
-CREATE DATABASE `try`;
-USE `try`;
+CREATE DATABASE `cookzilla`;
+USE `cookzilla`;
 
 CREATE TABLE IF NOT EXISTS User (
    uname varchar(40)not null,   oname varchar(40)not null,   upassword varchar(60)not null,/* need to change varchar(15)  */
