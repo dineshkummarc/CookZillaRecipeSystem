@@ -5,7 +5,7 @@ If you want to get access to database across multiple files, just include the fi
 
 <?php
 //connect to mysql database
-$con = mysqli_connect("localhost", "username", "password", "try") or die("Error " . mysqli_error($con)); 
+$con = mysqli_connect("localhost", "root", "", "cookzilla") or die("Error " . mysqli_error($con));
 // if(isset($_SESSION['uname'])!="") {
 //     echo "hello".$_SESSION['uname'];
 // }
